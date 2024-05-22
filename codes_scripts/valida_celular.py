@@ -5,8 +5,6 @@
 import re
 
 #fones = [(88) 98888-8888,(11)91111-1111,225555-555,]
-
-
 number = []
 
  # TODO: Crie uma função chamada 'validate_numero_telefone' que aceite um argumento 'phone_number':
@@ -23,10 +21,8 @@ def validate_numero_telefone(phone_number):
     else:
         print("Número de telefone inválido.")
     # TODO: Agora crie um return, para retornar que o número de telefone é válido:
-       
-       # TODO: Crie um else e return, caso não o número de telefone seja inválido:
+    # TODO: Crie um else e return, caso não o número de telefone seja inválido:
     
-
 # Solicita ao usuário que insira um número de telefone e armazena o valor fornecido na variável 'phone_number'.
 number = input("informe o número: ")
 #print(number)
